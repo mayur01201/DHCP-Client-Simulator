@@ -1,17 +1,11 @@
-# Network Scanner
+# DHCP Client Simulator
 
-This program allow user to discover network devices within network.
-
+This program allow user to simulate rogue DHCP client request to server. This will exhaust DHCP pool of server. Legitimate user will not get IP address from DHCP server.
 
 ## Usage
 
 ```
-network_scanner.py [-h] [-t TARGET]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -t TARGET, --target TARGET
-                        Target IP or Range of IP
+$ python DHCP-Sim-Final.py
 
 ```
 ## Credits
